@@ -6,11 +6,12 @@
     {% block head %}{% endblock %}
 </head>
 <body>
-    {% load static %}
+    {% load static %} 
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"> 
     <div>
         <div id = "leftSide" style="padding-right: 60%;">
-            <a href="{% url 'feedbackApp:root' %}" class="logo" style="padding-left: 60%;">
-                <img src="{% static 'root/images/factLogo.png' %}" alt="CheckPoint">
+            <a href="{% url 'root' %}" class="logo" style="padding-left: 60%;">
+                <img src="{% static 'images/factLogo.png' %}" alt="FACT">
             </a>
 
         </div>
