@@ -7,3 +7,5 @@ app_name = 'feedbackApp'
 
 def dashboard(req):
     return render(req, "feedbackApp/stretch.html")
+
+
