@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views import View
 from django.contrib.auth.models import User
 from django.contrib import auth
@@ -8,18 +8,17 @@ from django.contrib import auth
 class SignIn(View):
     def get(self,req): 
         if(req.user.is_authenticated): 
-            return render(req, "../feedbackApp/templates/feedbackApp/app.html")
-            pass #vamos redirecionar para o app feedbackApp
+            return redirect("feedbackApp:root")
 
-        return render(req, "/login.html/")
-    #def post(self, req)
+        return render(req, "autenticacao/login.html")
+    
     def post(self,req):
-        email = req.POST.get("email")
+        username = req.POST.get("username")
         password = req.POST.get("password")
 
-        USER = auth.authenticate(email = email, password = password)
+        USER = auth.authenticate(username = username, password = password)
         if not USER:
-            
-            return render(req, 'autenticacao/signin.html')
+            return render(req, 'autenticacao/login.html')
         else:
-            return render(req, "../feedbackApp/templates/feedbackApp/app.html")
+            auth.login(req, USER)
+            return redirect("feedbackApp:root")
