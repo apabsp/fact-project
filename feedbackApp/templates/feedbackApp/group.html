@@ -9,7 +9,7 @@
     <main>
         <h1>{{ group.nome }}</h1>
 
-        {% if group.alunos|length < 1 %}
+        {% if alunos|length < 1 %}
             <form action="" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 <label id="uploadfile" for="uploadfileInput">
@@ -19,6 +19,51 @@
                 <input id="uploadfileInput" style="display: none;" type="file" name="file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
                 <button type="submit">Enviar</button>
             </form>
+
+        {% else %}
+            <div class="alunos-container">
+                {% for aluno in alunos %}
+                    <div class="aluno">
+                        <div>
+                            <p>Nome:</p>
+                            <p>{{aluno.nome}}</p>
+                        </div>
+                        <div>
+                            <p>Email:</p>
+                            <p>{{aluno.email}}</p>
+                        </div>
+                        <div>
+                            <p>Pensamento Crítico e Criatividade:</p>
+                            <p>{{aluno.pensamento_critico_criatividade}}</p>
+                        </div>
+                        <div>
+                            <p>Comunicação:</p>
+                            <p>{{aluno.comunicacao}}</p>
+                        </div>
+                        <div>
+                            <p>Colaboração:</p>
+                            <p>{{aluno.colaboracao}}</p>
+                        </div>
+                        <div>
+                            <p>Qualidade das Entregas:</p>
+                            <p>{{aluno.qualidade_entregas}}</p>
+                        </div>
+                        <div>
+                            <p>Presença:</p>
+                            <p>{{aluno.presenca}}</p>
+                        </div>
+                        <div>
+                            <p>Entrega e Prazos:</p>
+                            <p>{{aluno.entrega_prazos}}</p>
+                        </div>
+                    </div>
+
+                    {% if not forloop.last %}
+                        <hr>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
         {% endif %}
     </main>
 {% endblock %}
