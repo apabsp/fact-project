@@ -62,3 +62,6 @@ Validação de história: Eu, como pesquisador, modifico o valor multiplicador d
 ![image](https://github.com/JotaPeans/fact-project/assets/142417937/7d09b29a-a391-433f-8ead-19b8845a651e)
 
 ## Relatos do método Pair Programming
+
+![LOGO FACT](https://github.com/JotaPeans/fact-project/assets/130470569/873cab2c-2c03-45fb-8791-952a7ddc7a7b)
+
