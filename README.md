@@ -49,26 +49,22 @@ Leonardo Guedes
 
    <b>Validações</b>
    
-História 1: Exportar e Importar Planilhas
+História 1: Importar Planilhas
 Validação de história: Eu, como professor, exporto planilhas dos resultados de avaliação para analisar o progresso dos alunos fora da plataforma
 Validação de história: Eu, como professor, importo planilhas para poder usar do sistema FACT com base nos dados registrados.
 Validação de história: Eu, como professor, utilizo a importação e exportação de planilhas para manter registros acadêmicos consistentes entre diferentes sistemas e plataformas(como o Lyceum).
 
-História 2: Visitar Páginas de Grupos e Alunos
-Validação de história: Eu, como professor, visito as páginas de cada grupo e aluno para monitorar detalhadamente o progresso e as dificuldades, para que um feedback construtivo seja facilmente construido.
-Validação de história: Eu, como coordenador de ensino, acesso os dashboards de grupos e alunos para preparar relatórios de desempenho para reuniões de coordenação pedagógica.
+História 2: Visitar Páginas de Grupos
 
-História 3: Mudar Informações de Alunos/Grupo
-Validação de história: Eu, como professor que lidera um projeto de um grupo de alunos, modifico informações dos alunos para atualizar dados ou corrigir erros, assegurando que toda a base de dados esteja correta.
-Validação de história: Eu, como coordenador de ensino, altero informações de grupos para refletir mudanças na composição ou estratégias pedagógicas, facilitando a trajetória do curso.
 
-História 4: Editar Questionários
-Validação de história: Eu, como professor, ajusto questionários para adequá-los melhor às necessidades atuais, garantindo que a avaliação esteja alinhada com a aprendizagem da cadeira.
-Validação de história: Eu, como coordenador de ensino, reviso e atualizo questionários para incorporar necessidades gerais de uma cadeira.
+História 3: Exportar Planilhas
 
-História 5: Mudar Modelo de Scoring
-Validação de história: Eu, como professor, altero o valor multiplicador de cada resposta numérica para adaptá-lo a novos critérios pedagógicos.
-Validação de história: Eu, como pesquisador, modifico o valor multiplicador de cada resposta numérica para testar novas abordagens de avaliação em um projeto piloto, buscando fórmulas mais eficazes de medição de aprendizado e cooperação.
+
+História 4: Editar alunos/grupo
+
+
+História 5: Visitar Páginas de Alunos
+
 
 
 <details>
