@@ -6,26 +6,26 @@
 {% endblock %}
 
 {% block body %}
-    <div class="content">
-        <div class="container-column full-height">
-            <div class="flex-1"></div>
-            <h1>Login</h1>
-            
-            <form class="flex-1" method="POST">
-                {% csrf_token %}
-                <input class="poppins-regular" placeholder="Usuário" type="text" name="username">
-                <input class="poppins-regular" placeholder="Senha" type="password" name="password">
-                <button class="poppins-semibold">Sign in</button>
-            </form>
+    <!-- <img id="background-principal" src="{% static 'images/background-principal.png' %}" alt="background"> -->
+    <img id="logo" src="{% static 'images/factLogo.png' %}" alt="background">
+    
+    <div class="container-login">
+        <h1>Login</h1>
+        
+        <form method="POST">
+            {% csrf_token %}
+            <input placeholder="Usuário" type="text" name="username">
+            <input placeholder="Senha" type="password" name="password">
+            <button>Sign in</button>
+        </form>
 
-            {% if messages %}
-                {% for message in messages %}
-                    <div class="">
-                        {{message}}
-                    </div>
-                {% endfor %}
-            {% endif %}
+        {% if messages %}
+            {% for message in messages %}
+                <div class="">
+                    {{message}}
+                </div>
+            {% endfor %}
+        {% endif %}
 
-        </div>
     </div>
 {% endblock %}
