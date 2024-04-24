@@ -40,7 +40,7 @@ Leonardo Guedes
 
 ## Histórias e Validações 📜
 
-1. Eu, como usuário, desejo poder importar planilhas.
+1. Eu, como usuário, desejo importar planilhas.
 
 2. Eu, como usuário, gostaria de ter a capacidade de visitar a página de cada grupo e cada aluno, cada dashboard;
 
