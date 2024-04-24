@@ -50,9 +50,7 @@ Leonardo Guedes
    <b>Validações</b>
    
 História 1: Importar Planilhas
-Validação de história: Eu, como professor, exporto planilhas dos resultados de avaliação para analisar o progresso dos alunos fora da plataforma
-Validação de história: Eu, como professor, importo planilhas para poder usar do sistema FACT com base nos dados registrados.
-Validação de história: Eu, como professor, utilizo a importação e exportação de planilhas para manter registros acadêmicos consistentes entre diferentes sistemas e plataformas(como o Lyceum).
+
 
 História 2: Visitar Páginas de Grupos
 
