@@ -52,7 +52,7 @@ Leonardo Guedes
 História 1: Importar Planilhas
 
 
-História 2: Visitar Páginas de Grupos
+História 2: Visitar Páginas de Grupos Validação de história: Eu, como professor, visito a página do grupo para gerenciar membros, postar informações e editar configurações do grupo. Validação de história: Eu, como professor, visito a página de cada grupo para monitorar o progresso dos projetos, contribuir com recursos didáticos, e facilitar a comunicação entre os membros do grupo.
 
 
 História 3: Exportar Planilhas
