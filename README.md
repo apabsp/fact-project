@@ -81,3 +81,10 @@ Validação de história: Eu, como pesquisador, modifico o valor multiplicador d
 
 ![LOGO FACT](https://github.com/JotaPeans/fact-project/assets/130470569/873cab2c-2c03-45fb-8791-952a7ddc7a7b)
 </details>
+
+<p><a href="https://github.com/apabsp">Antonio Paulo Barros</a> - apabsp@cesar.school 📩</p>
+<p><a href="https://github.com/helotanaka">Heloisa Tanaka</a> - htf@cesar.school 📩</p>
+<p><a href="https://github.com/leooghub">Leonardo Guedes</a> - lccg@cesar.school 📩</p> 
+<p><a href="https://github.com/jotapeans">João Pedro Fontes</a> - jpff2@cesar.school 📩</p>
+<p><a href="https://github.com/lariisantos">Larissa Santos</a> - lss2@cesar.school 📩</p>
+<p><a href="https://github.com/claramachadoaj">Clara Machado</a> - cma3@cesar.school 📩</p>
