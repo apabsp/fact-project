@@ -84,7 +84,7 @@ Validação de história: Eu, como pesquisador, modifico o valor multiplicador d
 
 # Contribuidores 👨‍👩‍👧‍👦
 <a href="https://github.com/JotaPeans/fact-project/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jotapeans/fact-service" />
+  <img src="https://contrib.rocks/image?repo=jotapeans/fact-project" />
 </a>
 <p><a href="https://github.com/apabsp">Antonio Paulo Barros</a> - apabsp@cesar.school 📩</p>
 <p><a href="https://github.com/helotanaka">Heloisa Tanaka</a> - htf@cesar.school 📩</p>
