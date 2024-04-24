@@ -9,14 +9,20 @@
 {% block content %}
     <main>
         <div class="content">
-            {% for group in groups %}
-            <a href="{% url 'feedbackApp:group' id=group.id %}" class="group">
-                <div class="img">
-                    <img src="{% static 'images/factLogo.png' %}" alt="FACT">
-                </div>
-                <p>{{group.nome}}</p>
-            </a>
-            {% endfor %}
+            {%if groups == {} %}
+            
+            <h2>Esse lugar está vazio...</h2>
+            
+            {%else%}
+                {% for group in groups %}
+                <a href="{% url 'feedbackApp:group' id=group.id %}" class="group">
+                    <div class="img">
+                        <img src="{% static 'images/factLogo.png' %}" alt="FACT">
+                    </div>
+                    <p>{{group.nome}}</p>
+                </a>
+                {% endfor %}
+            {%endif%}
         </div>
         <button id="addGroup">
             Adicionar Grupo
