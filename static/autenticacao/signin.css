@@ -106,8 +106,8 @@ button {
         display: flex;
         justify-content: center; /* Center horizontally */
         align-items: center; /* Center vertically */
-        width: 150vw;
-        height: 150vh;
+        width: 200vw;
+        height: 2000vh;
         margin: 0; /* Remove default margin */
     }
     
