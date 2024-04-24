@@ -1,4 +1,15 @@
 <h1 align="center">✔️ Fact </h1>
+<div align="center">
+   <img alt="GitHub commit activity (branch)" src="https://img.shields.io/github/commit-activity/t/JotaPeans/fact-project/main">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/JotaPeans/fact-project">
+</div>
+<p align="center"> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Status">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Status">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Status">
+    <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Status">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Status">
+    <img src="https://img.shields.io/badge/Pandas-092E20?style=for-the-badge&logo=pandas&logoColor=black&color=white"></p>
+
 
 Nós, do grupo VERTEX, apresentamos o FaCT: Uma solução web inovadora para avaliação e feedback contínuos. 📊📈
 
@@ -27,7 +38,7 @@ Larissa Sobrinho Santos
 
 Leonardo Guedes
 
-## Histórias e Validações
+## Histórias e Validações 📜
 01. Eu, como usuário, desejo poder exportar e importar planilhas.
 3. Eu, como usuário, gostaria de ter a capacidade de visitar a página de cada grupo e cada aluno, cada dashboard;
 4. Eu, como usuário professor, gostaria de ter a capacidade de mudar qualquer informação relacionado aos alunos/grupo;
@@ -57,6 +68,11 @@ História 5: Mudar Modelo de Scoring
 Validação de história: Eu, como professor, altero o valor multiplicador de cada resposta numérica para adaptá-lo a novos critérios pedagógicos.
 Validação de história: Eu, como pesquisador, modifico o valor multiplicador de cada resposta numérica para testar novas abordagens de avaliação em um projeto piloto, buscando fórmulas mais eficazes de medição de aprendizado e cooperação.
 
+
+<details>
+  <summary><h1>Primeira Entrega 📦</h1></summary>
+  
+  
 ## Diagrama
 
 ![image](https://github.com/JotaPeans/fact-project/assets/142417937/7d09b29a-a391-433f-8ead-19b8845a651e)
@@ -64,4 +80,4 @@ Validação de história: Eu, como pesquisador, modifico o valor multiplicador d
 ## Relatos do método Pair Programming
 
 ![LOGO FACT](https://github.com/JotaPeans/fact-project/assets/130470569/873cab2c-2c03-45fb-8791-952a7ddc7a7b)
-
+</details>
