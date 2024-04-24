@@ -39,11 +39,17 @@ Larissa Sobrinho Santos
 Leonardo Guedes
 
 ## Histórias e Validações 📜
-01. Eu, como usuário, desejo poder exportar e importar planilhas.
-3. Eu, como usuário, gostaria de ter a capacidade de visitar a página de cada grupo e cada aluno, cada dashboard;
+
+1. Eu, como usuário, desejo importar planilhas.
+
+2. Eu, como usuário, gostaria de ter a capacidade de visitar a página de cada grupo e cada aluno, cada dashboard;
+
+3. Eu, como usuário, desejo exportar planilhas;
+
 4. Eu, como usuário professor, gostaria de ter a capacidade de mudar qualquer informação relacionado aos alunos/grupo;
+
 5. Eu, como usuário, desejo ter a capacidade de editar questionários para os alunos.
-6. Eu, como usuário, gostaria de mudar facilmente o modelo de scoring, permitindo ajustes conforme necessário para refletir mudanças nos critérios de avaliação ou objetivos do projeto.
+
 
    <b>Validações</b>
    
@@ -92,3 +98,4 @@ Validação de história: Eu, como pesquisador, modifico o valor multiplicador d
 <p><a href="https://github.com/jotapeans">João Pedro Fontes</a> - jpff2@cesar.school 📩</p>
 <p><a href="https://github.com/lariisantos">Larissa Santos</a> - lss2@cesar.school 📩</p>
 <p><a href="https://github.com/claramachadoaj">Clara Machado</a> - cma3@cesar.school 📩</p>
+<p><a href="https://github.com/daviruy61">Davi Gomes</a> - dgfra@cesar.school 📩</p>
