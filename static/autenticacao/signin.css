@@ -3,10 +3,10 @@
     --blueHover: #1c3ebb;
     --yellow: #F7B401;
     --yellowHover: #d69d00;
-    --secondary: #D72C00;
-    --primary: #c02600;
+    --red: #D72C00;
+    --redHover: #c02600;
     --beige: #F0EBE5;
-    --background: #efe0ce;
+    --beigeHover: #efe0ce;
     --black: #292B26;
     --blackHover: rgb(16, 16, 15);
 }
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--beigeHover);
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -37,7 +37,7 @@ body {
 }
 
 .content {
-    background-color: white;
+    background-color: var(--beige);
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -52,14 +52,14 @@ body {
 
 .container-row {
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
     gap: 0.5rem;
 }
 
 .tiny {
     font-size: 0.8rem;
-    color: var(--primary);
+    color: var(--redHover);
 }
 
 .link {
@@ -72,7 +72,7 @@ body {
 
 h1 {
     text-align: center;
-    color: var(--primary);
+    color: var(--redHover);
 }
 
 form {
@@ -85,12 +85,12 @@ form {
 input {
     padding: 0.8rem;
     border-radius: 0.75rem;
-    border: 2px solid var(--secondary);
-    color: var(--background);
+    border: 2px solid var(--red);
+    color: var(--beigeHover);
 }
 
 button {
-    background-color: var(--primary);
+    background-color: var(--redHover);
     color: white;
     /* font-size: 1rem; */
     letter-spacing: 1px;
@@ -102,12 +102,12 @@ button {
 
 @media (min-width: 0px) {
     body {
-        background-color: var(--background);
+        background-color: var(--beigeHover);
         display: flex;
         justify-content: center; /* Center horizontally */
         align-items: center; /* Center vertically */
-        width: 100vw;
-        height: 100vh;
+        width: 150vw;
+        height: 150vh;
         margin: 0; /* Remove default margin */
     }
     
