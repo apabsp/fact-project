@@ -92,3 +92,4 @@ Validação de história: Eu, como pesquisador, modifico o valor multiplicador d
 <p><a href="https://github.com/jotapeans">João Pedro Fontes</a> - jpff2@cesar.school 📩</p>
 <p><a href="https://github.com/lariisantos">Larissa Santos</a> - lss2@cesar.school 📩</p>
 <p><a href="https://github.com/claramachadoaj">Clara Machado</a> - cma3@cesar.school 📩</p>
+<p><a href="https://github.com/daviruy61">Davi Gomes</a> - dgfra@cesar.school 📩</p>
