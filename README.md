@@ -41,14 +41,10 @@ Leonardo Guedes
 ## Histórias e Validações 📜
 
 1. Eu, como usuário, desejo importar planilhas.
-
-2. Eu, como usuário, gostaria de ter a capacidade de visitar a página de cada grupo e cada aluno, cada dashboard;
-
+2. Eu, como usuário, gostaria de ter a capacidade de visitar a página de cada grupo;
 3. Eu, como usuário, desejo exportar planilhas;
-
 4. Eu, como usuário professor, gostaria de ter a capacidade de mudar qualquer informação relacionado aos alunos/grupo;
-
-5. Eu, como usuário, desejo ter a capacidade de editar questionários para os alunos.
+5. Eu, como usuário, gostaria de ter a capacidade de visitar a página de cada aluno;
 
 
    <b>Validações</b>
@@ -81,7 +77,8 @@ Validação de história: Eu, como pesquisador, modifico o valor multiplicador d
   
 ## Diagrama
 
-![image](https://github.com/JotaPeans/fact-project/assets/142417937/7d09b29a-a391-433f-8ead-19b8845a651e)
+![image](https://github.com/JotaPeans/fact-project/assets/142417937/f5e9b824-4de7-4464-bb53-b6fd6a54aa93)
+
 
 ## Relatos do método Pair Programming
 
