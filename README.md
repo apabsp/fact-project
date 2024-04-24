@@ -59,7 +59,8 @@ Validação de história: Eu, como professor, visito a página de cada grupo par
 História 3: Exportar Planilhas
 
 
-História 4: Editar alunos/grupo
+História 4: Editar alunos/grupo Validação de história: Eu, como professor, modifico os detalhes do projeto de grupo para atualizar tarefas ou critérios de avaliação conforme a necessidade durante o semestre.
+Validação de história: Eu, como professor, utilizo a capacidade de alterar informações para corrigir erros cadastrais ou atualizar dados essenciais, garantindo a integridade e precisão das informações dos alunos e grupos.
 
 
 História 5: Visitar Páginas de Alunos Validação de história: Eu, como professor, desejo visitar a página de cada aluno para acessar informações detalhadas sobre seu desempenho, participação em atividades e histórico acadêmico.
