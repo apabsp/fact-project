@@ -1,14 +1,20 @@
+:root {
+    --blue: #1E46D9;
+    --blueHover: #1c3ebb;
+    --yellow: #F7B401;
+    --yellowHover: #d69d00;
+    --secondary: #D72C00;
+    --primary: #c02600;
+    --beige: #F0EBE5;
+    --background: #efe0ce;
+    --black: #292B26;
+    --blackHover: rgb(16, 16, 15);
+}
+
 * {
     margin: 0;
     padding: 0  ;
     box-sizing: border-box;
-}
-
-:root {
-    --background: #181818;
-    --primary: #424242;
-    --secondary: #929292;
-    --link: #4373ED;
 }
 
 html {
