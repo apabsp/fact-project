@@ -49,14 +49,14 @@ Leonardo Guedes
 
    <b>Validações</b>
    
-História 1: Importar Planilhas
+História 1: Importar Planilhas Validação de história: Eu, como professor, importo planilhas para poder usar do sistema FACT com base nos dados registrados
 
 
 História 2: Visitar Páginas de Grupos Validação de história: Eu, como professor, visito a página do grupo para gerenciar membros, postar informações e editar configurações do grupo.
 Validação de história: Eu, como professor, visito a página de cada grupo para monitorar o progresso dos projetos, contribuir com recursos didáticos, e facilitar a comunicação entre os membros do grupo.
 
 
-História 3: Exportar Planilhas
+História 3: Exportar Planilhas Validação de história: Eu, como professor, exporto planilhas dos resultados de avaliação para analisar o progresso dos alunos fora da plataforma
 
 
 História 4: Editar alunos/grupo Validação de história: Eu, como professor, modifico os detalhes do projeto de grupo para atualizar tarefas ou critérios de avaliação conforme a necessidade durante o semestre.
