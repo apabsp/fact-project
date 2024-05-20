@@ -51,7 +51,15 @@ class FeedBackView(View):
 
         return render(req, "feedbackApp/app.html", context=context)
     
-    def deleteGroup(self, req, context, user):
+
+class deleteGroup(View):
+
+    #def deleteGroup(self, req, context, user):
+    def get(self,req,groupId):
+        #make it safe by verifying if group is indeed in user's range
+        groupToDelete = Grupo.objects.get(id=groupId)
+        groupToDelete.delete()
+        return redirect("autenticacao:root")
 
 
 class GroupView(View):

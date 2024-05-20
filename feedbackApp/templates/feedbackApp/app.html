@@ -41,7 +41,7 @@
                     <p>{{group.nome}}</p>
                 </a>
 
-                <a href="{% url 'feedbackApp:group' id = group.id %}" class="groupDelete">
+                <a href="{% url 'feedbackApp:deleteGroup' groupId=group.id %}" class="groupDelete">
                     PEGOU
                     <div class="img">
                         <img src="{% static 'images/factLogo.png' %}" alt="FACT">
