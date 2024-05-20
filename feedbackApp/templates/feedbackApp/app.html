@@ -8,6 +8,25 @@
 
 {% block content %}
     <main>
+        <div class = "upperButtons">
+            <button id="addGroup">
+                Adicionar Grupo
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            </button>
+
+            <button id="deleteGroup">
+                lixo
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            </button>
+            
+            <button id="deleteGroupActivated">
+                lixo WE HIDE THIS BUTTON 
+                <svg xmlns="http://www.w3.org/2000/svg"width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            </button>
+
+
+        </div>
+
         <div class="content">
             {%if not groups %}
             
@@ -21,13 +40,18 @@
                     </div>
                     <p>{{group.nome}}</p>
                 </a>
+
+                <a href="{% url 'feedbackApp:group' id = group.id %}" class="groupDelete">
+                    PEGOU
+                    <div class="img">
+                        <img src="{% static 'images/factLogo.png' %}" alt="FACT">
+                    </div>
+                    <p>{{group.nome}}</p>
+                </a>
                 {% endfor %}
             {%endif%}
         </div>
-        <button id="addGroup">
-            Adicionar Grupo
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
-        </button>
+
     </main>
     <div class="background"></div>
 
@@ -66,5 +90,29 @@
         window.addEventListener("keydown", (key) => {
             if(key.key === "Escape") toggleModal("close");
         })
+
+
+        function activateToDelete(action){
+            allButtonsToHideGroups = document.getElementsByClassName("group"); // for each of these
+            allButtonsToHideDeleteGroups = document.getElementsByClassName("groupDelete")
+            redButton = document.getElementById("deleteGroup");
+            greyButton = document.getElementById("deleteGroup");
+            greyButton.style.display = "none";
+            redButton.style.display = "none";
+            for (let i = 0; i < allButtonsToHideGroups.length; i++) {
+                allButtonsToHideGroups[i].style.display = "none";
+                
+            }
+            for (let i = 0; i < allButtonsToHideDeleteGroups.length; i++) {
+                allButtonsToHideDeleteGroups[i].style.display = "flex";
+                
+            }
+            
+
+
+        }
+
+        document.getElementById("deleteGroup")?.addEventListener("click", activateToDelete);
+        document.getElementById("deleteGroupActivated")?.addEventListener("click",hideAndUnhideTrashCan);
     </script>
 {% endblock %}

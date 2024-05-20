@@ -50,6 +50,8 @@ class FeedBackView(View):
         context["groups"] = groups
 
         return render(req, "feedbackApp/app.html", context=context)
+    
+    def deleteGroup(self, req, context, user):
 
 
 class GroupView(View):
